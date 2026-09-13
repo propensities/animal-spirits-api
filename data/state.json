@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-13T19:28:11.148039+00:00",
+  "timestamp": "2026-09-13T21:33:09.969775+00:00",
   "regions": {
     "us": {
       "attention": -0.134433023689888,
@@ -14,12 +14,12 @@
     "india": {
       "attention": -0.2002745099849913,
       "market": -0.37306200805964757,
-      "narrative": 0.0
+      "narrative": null
     }
   },
   "meta": {
     "attention": "live",
     "market": "live",
-    "narrative": "live"
+    "narrative": "simulated"
   }
 }
