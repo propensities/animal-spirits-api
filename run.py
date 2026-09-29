@@ -30,16 +30,24 @@ OUTPUT_PATH = Path(__file__).parent / "data" / "state.json"
 HISTORY_PATH = Path(__file__).parent / "data" / "history.jsonl"
 
 
-async def _safe_source(coro, name: str):
-    """Run a source coroutine with a hard timeout; return (data, status) always."""
+async def _safe_source(coro, name: str, timeout: float = 180.0):
+    """Run a source coroutine with a hard timeout.
+
+    Always returns (data, status, meta_extra): sources may return either a
+    2-tuple or a 3-tuple; the missing meta_extra is padded with {}.
+    """
     try:
-        return await asyncio.wait_for(coro, timeout=180.0)
+        result = await asyncio.wait_for(coro, timeout=timeout)
     except asyncio.TimeoutError:
         log.warning("%s timed out", name)
-        return {r: None for r in REGIONS}, "simulated"
+        return {r: None for r in REGIONS}, "simulated", {}
     except Exception as e:
         log.warning("%s failed: %s", name, e, exc_info=True)
-        return {r: None for r in REGIONS}, "simulated"
+        return {r: None for r in REGIONS}, "simulated", {}
+    if len(result) == 2:
+        data, status = result
+        return data, status, {}
+    return result
 
 
 def _prune_history(history_path: Path):
@@ -77,13 +85,14 @@ async def compose_and_write() -> dict:
     """Compose state and write to data/state.json and data/history.jsonl."""
     log.info("Starting state composition...")
     
-    # Parallel fetch across all three axes
-    (market_data,    market_status), \
-    (attention_data, attention_status), \
-    (narrative_data, narrative_status) = await asyncio.gather(
+    # Parallel fetch across all three axes. Narrative gets a longer budget:
+    # its 429 backoff can legitimately take several minutes.
+    (market_data,    market_status,    _), \
+    (attention_data, attention_status, _), \
+    (narrative_data, narrative_status, narrative_meta) = await asyncio.gather(
         _safe_source(fetch_market(),    "market"),
         _safe_source(fetch_attention(), "attention"),
-        _safe_source(fetch_narrative(), "narrative"),
+        _safe_source(fetch_narrative(), "narrative", timeout=480.0),
     )
     
     regions_out: dict[str, dict[str, Optional[float]]] = {}
@@ -101,6 +110,7 @@ async def compose_and_write() -> dict:
             "attention": attention_status,
             "market":    market_status,
             "narrative": narrative_status,
+            **narrative_meta,
         },
     }
     
