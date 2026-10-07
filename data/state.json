@@ -1,18 +1,18 @@
 {
-  "timestamp": "2026-10-07T00:11:20.769261+00:00",
+  "timestamp": "2026-10-07T05:54:40.687270+00:00",
   "regions": {
     "us": {
-      "attention": 0.3939868500133653,
+      "attention": 0.22663476326391724,
       "market": -0.1959797844064743,
       "narrative": null
     },
     "uk": {
-      "attention": 0.3235712930992454,
+      "attention": 0.035767096661969415,
       "market": -0.40588339688067754,
       "narrative": null
     },
     "india": {
-      "attention": 0.34940988925284794,
+      "attention": 0.2146700960269523,
       "market": -0.34921699695677727,
       "narrative": null
     }
