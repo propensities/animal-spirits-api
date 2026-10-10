@@ -33,7 +33,7 @@
       251.0,
       293.0
     ],
-    "expires_at": 1791661016.9577453
+    "expires_at": 1791673045.3330388
   },
   "wiki:Stock_market_crash": {
     "value": [
@@ -69,7 +69,7 @@
       517.0,
       399.0
     ],
-    "expires_at": 1791661016.971852
+    "expires_at": 1791673045.326908
   },
   "wiki:Financial_crisis": {
     "value": [
@@ -105,7 +105,7 @@
       340.0,
       286.0
     ],
-    "expires_at": 1791661016.9629996
+    "expires_at": 1791673045.3292313
   },
   "wiki:Inflation": {
     "value": [
@@ -141,7 +141,7 @@
       1213.0,
       1217.0
     ],
-    "expires_at": 1791661016.9608393
+    "expires_at": 1791673045.3356411
   },
   "wiki:Unemployment": {
     "value": [
@@ -177,7 +177,7 @@
       746.0,
       403.0
     ],
-    "expires_at": 1791661016.9753246
+    "expires_at": 1791673045.3366795
   },
   "wiki:Bankruptcy": {
     "value": [
@@ -213,7 +213,7 @@
       823.0,
       850.0
     ],
-    "expires_at": 1791661016.9776394
+    "expires_at": 1791673045.3319104
   },
   "wiki:Recession": {
     "value": [
@@ -249,7 +249,7 @@
       435.0,
       478.0
     ],
-    "expires_at": 1791661016.964898
+    "expires_at": 1791673045.3345647
   },
   "av:NIFTYBEES.BSE": {
     "value": [
@@ -354,7 +354,7 @@
       253.85,
       257.2
     ],
-    "expires_at": 1791665963.544742
+    "expires_at": 1791692870.5430722
   },
   "av:SPY": {
     "value": [
@@ -459,7 +459,7 @@
       773.93,
       778.57
     ],
-    "expires_at": 1791665939.0485048
+    "expires_at": 1791692846.4368432
   },
   "wiki:Economic_bubble": {
     "value": [
@@ -495,7 +495,7 @@
       304.0,
       312.0
     ],
-    "expires_at": 1791661016.9677446
+    "expires_at": 1791673045.3281987
   },
   "fred:BAMLH0A0HYM2": {
     "value": [
@@ -560,7 +560,7 @@
       3.09,
       3.15
     ],
-    "expires_at": 1791662816.9905882
+    "expires_at": 1791674845.8240926
   },
   "fred:DTWEXBGS": {
     "value": [
@@ -624,7 +624,7 @@
       121.7882,
       121.3848
     ],
-    "expires_at": 1791662816.9638777
+    "expires_at": 1791674845.7071362
   },
   "fred:VIXCLS": {
     "value": [
@@ -689,7 +689,7 @@
       15.08,
       15.41
     ],
-    "expires_at": 1791662817.0605211
+    "expires_at": 1791674846.347091
   },
   "wiki:Bull_market": {
     "value": [
@@ -725,7 +725,7 @@
       30.0,
       38.0
     ],
-    "expires_at": 1791661017.068127
+    "expires_at": 1791673045.3740075
   },
   "av:ISF.LON": {
     "value": [
@@ -830,7 +830,7 @@
       1015.4,
       1026.6
     ],
-    "expires_at": 1791665951.267377
+    "expires_at": 1791692858.4857566
   },
   "wiki:Economic_growth": {
     "value": [
@@ -866,7 +866,7 @@
       381.0,
       388.0
     ],
-    "expires_at": 1791661017.067059
+    "expires_at": 1791673045.3713977
   },
   "gdelt_tone_last_good:UK": {
     "value": {
@@ -877,13 +877,13 @@
   },
   "gdelt_tone:IN": {
     "value": -4.1835,
-    "expires_at": 1791663113.27424
+    "expires_at": 1791675133.7610543
   },
   "gdelt_tone_last_good:IN": {
     "value": {
       "tone": -4.1835,
-      "observed_at": 1791659216.7395318
+      "observed_at": 1791671245.1694927
     },
-    "expires_at": 1792264313.2742531
+    "expires_at": 1792276333.7610645
   }
 }
