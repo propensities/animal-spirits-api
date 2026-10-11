@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-11T18:39:37.010447+00:00",
+  "timestamp": "2026-10-11T22:33:12.829008+00:00",
   "regions": {
     "us": {
       "attention": 0.16716664642099727,
@@ -24,7 +24,7 @@
     "narrative_age_minutes": {
       "us": null,
       "uk": null,
-      "india": 1208
+      "india": 1439
     }
   }
 }
