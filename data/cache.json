@@ -218,10 +218,10 @@
   },
   "gdelt_tone_last_good:IN": {
     "value": {
-      "tone": -3.2426,
-      "observed_at": 1792585294.646708
+      "tone": -1.81,
+      "observed_at": 1792615419.2774937
     },
-    "expires_at": 1793190364.316954
+    "expires_at": 1793220486.6042824
   },
   "gdelt_tone_last_good:US": {
     "value": {
@@ -335,12 +335,8 @@
     ],
     "expires_at": 1792625112.046981
   },
-  "gdelt_tone:US": {
-    "value": -1.3445,
-    "expires_at": 1792607142.0383809
-  },
-  "gdelt_tone:UK": {
-    "value": -3.1008,
-    "expires_at": 1792607170.970966
+  "gdelt_tone:IN": {
+    "value": -1.81,
+    "expires_at": 1792619286.6042614
   }
 }
