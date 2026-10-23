@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T06:43:20.165494+00:00",
+  "timestamp": "2026-10-23T12:09:00.184311+00:00",
   "regions": {
     "us": {
       "attention": null,
@@ -9,7 +9,7 @@
     "uk": {
       "attention": null,
       "market": -0.4174385240872956,
-      "narrative": -0.5167532804946274
+      "narrative": 0.03476598292513647
     },
     "india": {
       "attention": null,
@@ -22,9 +22,9 @@
     "market": "live",
     "narrative": "live",
     "narrative_age_minutes": {
-      "us": 283,
+      "us": 609,
       "uk": 0,
-      "india": 0
+      "india": 326
     }
   }
 }
