@@ -102,7 +102,7 @@
       763.96,
       759.97
     ],
-    "expires_at": 1792925933.8879445
+    "expires_at": 1792958047.431632
   },
   "av:ISF.LON": {
     "value": [
@@ -207,7 +207,7 @@
       1044.8,
       1040.8
     ],
-    "expires_at": 1792925946.0885332
+    "expires_at": 1792958059.4778056
   },
   "gdelt_tone_last_good:UK": {
     "value": {
@@ -225,10 +225,10 @@
   },
   "gdelt_tone_last_good:US": {
     "value": {
-      "tone": -2.4588,
-      "observed_at": 1792887481.857662
+      "tone": -1.5185,
+      "observed_at": 1792936446.8693714
     },
-    "expires_at": 1793492308.7121212
+    "expires_at": 1793541305.6587732
   },
   "av:NIFTYBEES.BSE": {
     "value": [
@@ -333,7 +333,7 @@
       258.98,
       257.2
     ],
-    "expires_at": 1792925958.2660093
+    "expires_at": 1792958071.5533056
   },
   "fred:DTWEXBGS": {
     "value": [
@@ -396,7 +396,7 @@
       121.5693,
       121.4048
     ],
-    "expires_at": 1792924435.2705543
+    "expires_at": 1792940047.2066183
   },
   "fred:BAMLH0A0HYM2": {
     "value": [
@@ -461,7 +461,7 @@
       3.27,
       3.4
     ],
-    "expires_at": 1792924435.418079
+    "expires_at": 1792940047.263976
   },
   "fred:VIXCLS": {
     "value": [
@@ -526,14 +526,10 @@
       16.68,
       19.03
     ],
-    "expires_at": 1792924435.2648969
+    "expires_at": 1792940047.3162777
   },
-  "gdelt_tone:IN": {
-    "value": -3.6105,
-    "expires_at": 1792924719.9005787
-  },
-  "gdelt_tone:UK": {
-    "value": -0.4474,
-    "expires_at": 1792924693.0340643
+  "gdelt_tone:US": {
+    "value": -1.5185,
+    "expires_at": 1792940105.658759
   }
 }
