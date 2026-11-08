@@ -60,7 +60,7 @@
       121.7361,
       121.6656
     ],
-    "expires_at": 1794152348.628671
+    "expires_at": 1794168397.1470127
   },
   "fred:BAMLH0A0HYM2": {
     "value": [
@@ -125,7 +125,7 @@
       3.32,
       3.48
     ],
-    "expires_at": 1794152348.6330972
+    "expires_at": 1794168397.2008636
   },
   "fred:VIXCLS": {
     "value": [
@@ -190,7 +190,7 @@
       16.61,
       28.18
     ],
-    "expires_at": 1794152348.5925624
+    "expires_at": 1794168397.198185
   },
   "gdelt_tone_last_good:US": {
     "value": {
@@ -201,17 +201,17 @@
   },
   "gdelt_tone_last_good:IN": {
     "value": {
-      "tone": -0.2398,
-      "observed_at": 1794124596.6320975
+      "tone": 1.6329,
+      "observed_at": 1794164796.9090042
     },
-    "expires_at": 1794729584.2185376
+    "expires_at": 1794769916.0732176
   },
   "gdelt_tone_last_good:UK": {
     "value": {
-      "tone": -1.285,
-      "observed_at": 1794148748.2017195
+      "tone": -2.248,
+      "observed_at": 1794164796.9090042
     },
-    "expires_at": 1794753740.0184283
+    "expires_at": 1794769786.2866445
   },
   "av:SPY": {
     "value": [
@@ -529,11 +529,11 @@
     "expires_at": 1794170373.0575142
   },
   "gdelt_tone:UK": {
-    "value": -1.285,
-    "expires_at": 1794152540.0184155
+    "value": -2.248,
+    "expires_at": 1794168586.28663
   },
-  "gdelt_tone:US": {
-    "value": -2.3916,
-    "expires_at": 1794152481.3923025
+  "gdelt_tone:IN": {
+    "value": 1.6329,
+    "expires_at": 1794168716.0731874
   }
 }
