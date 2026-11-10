@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-11-10T10:27:43.731734+00:00",
+  "timestamp": "2026-11-10T18:03:01.278863+00:00",
   "regions": {
     "us": {
-      "attention": -0.22581387982976034,
-      "market": -0.40359710407788796,
-      "narrative": null
+      "attention": -0.2864256182081506,
+      "market": -0.29440710033263984,
+      "narrative": -0.2600853993970467
     },
     "uk": {
-      "attention": null,
-      "market": -0.37720088617107794,
+      "attention": -0.20184935780355667,
+      "market": -0.2680108824258298,
       "narrative": null
     },
     "india": {
-      "attention": -0.18749039862752356,
-      "market": 0.01640383749268942,
+      "attention": -0.3667617658591443,
+      "market": 0.1255938412379375,
       "narrative": -0.3691511781502836
     }
   },
@@ -22,7 +22,7 @@
     "market": "live",
     "narrative": "live",
     "narrative_age_minutes": {
-      "us": null,
+      "us": 0,
       "uk": null,
       "india": 0
     }
